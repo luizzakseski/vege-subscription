@@ -11,5 +11,46 @@
       "StackId": "arn:aws:cloudformation:us-east-1:145462141918:stack/amplify-amplify6fe91e4916ed4-staging-193647/d543b580-6e8a-11ed-ae5e-0ac5dec892a5",
       "AmplifyAppId": "dl9noldynkzr8"
     }
+  },
+  "auth": {
+    "vegesubscriptionfaa1027e": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplify6fe91e4916ed4-staging-193647-deployment/amplify-cfn-templates/auth/vegesubscriptionfaa1027e-cloudformation-template.json",
+        "logicalId": "authvegesubscriptionfaa1027e"
+      },
+      "lastPushTimeStamp": "2022-11-27T19:54:12.079Z",
+      "output": {
+        "UserPoolId": "us-east-1_k8nqKc7mB",
+        "AppClientIDWeb": "7rdtlcfrs3oal4j7e861d58juj",
+        "AppClientID": "6d9883g7es0slgd4k9mkkr9ugi",
+        "IdentityPoolId": "us-east-1:075fd67e-566b-4709-a0c2-3db0bcfaed80",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:145462141918:userpool/us-east-1_k8nqKc7mB",
+        "IdentityPoolName": "vegesubscriptionfaa1027e_identitypool_faa1027e__staging",
+        "UserPoolName": "vegesubscriptionfaa1027e_userpool_faa1027e"
+      },
+      "lastPushDirHash": "YspZd2yA86AgXC0xqh2Nlo0ks10="
+    }
   }
 }
