@@ -8,7 +8,7 @@ function App({ signOut, user }) {
     <div >
       <Heading level={1}>Hello {user.username}</Heading>
       <Button onClick={signOut}>Sign out</Button>
-      <h2>Amplify Todos</h2>
+      <h2>CLUBE VEGE</h2>
       </div>) 
       
 }
