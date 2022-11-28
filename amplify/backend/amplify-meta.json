@@ -40,7 +40,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplify6fe91e4916ed4-staging-193647-deployment/amplify-cfn-templates/auth/vegesubscriptionfaa1027e-cloudformation-template.json",
         "logicalId": "authvegesubscriptionfaa1027e"
       },
-      "lastPushTimeStamp": "2022-11-27T19:54:12.079Z",
+      "lastPushTimeStamp": "2022-11-27T21:47:27.573Z",
       "output": {
         "UserPoolId": "us-east-1_k8nqKc7mB",
         "AppClientIDWeb": "7rdtlcfrs3oal4j7e861d58juj",

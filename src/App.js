@@ -5,7 +5,7 @@ import '@aws-amplify/ui-react/styles.css';
 
 function App({ signOut, user }) { 
   return (
-    <div >
+    <div className='APP'>
       <Heading level={1}>Hello {user.username}</Heading>
       <Button onClick={signOut}>Sign out</Button>
       <h2>CLUBE VEGE</h2>
