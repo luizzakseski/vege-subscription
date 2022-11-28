@@ -19,7 +19,9 @@
       "dependsOn": [],
       "customAuth": false,
       "frontendAuthConfig": {
-        "socialProviders": [],
+        "socialProviders": [
+          "FACEBOOK"
+        ],
         "usernameAttributes": [],
         "signupAttributes": [
           "EMAIL"
@@ -28,19 +30,14 @@
           "passwordPolicyMinLength": 8,
           "passwordPolicyCharacters": []
         },
-        "mfaConfiguration": "OFF",
+        "mfaConfiguration": "OPTIONAL",
         "mfaTypes": [
-          "SMS"
+          "TOTP"
         ],
         "verificationMechanisms": [
           "EMAIL"
         ]
       },
-      "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplify6fe91e4916ed4-staging-193647-deployment/amplify-cfn-templates/auth/vegesubscriptionfaa1027e-cloudformation-template.json",
-        "logicalId": "authvegesubscriptionfaa1027e"
-      },
-      "lastPushTimeStamp": "2022-11-27T19:54:12.079Z",
       "output": {
         "UserPoolId": "us-east-1_k8nqKc7mB",
         "AppClientIDWeb": "7rdtlcfrs3oal4j7e861d58juj",
@@ -48,9 +45,16 @@
         "IdentityPoolId": "us-east-1:075fd67e-566b-4709-a0c2-3db0bcfaed80",
         "UserPoolArn": "arn:aws:cognito-idp:us-east-1:145462141918:userpool/us-east-1_k8nqKc7mB",
         "IdentityPoolName": "vegesubscriptionfaa1027e_identitypool_faa1027e__staging",
-        "UserPoolName": "vegesubscriptionfaa1027e_userpool_faa1027e"
+        "UserPoolName": "vegesubscriptionfaa1027e_userpool_faa1027e",
+        "HostedUIDomain": "to7ivu1ui5cy-staging",
+        "OAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://clube.vegekombucha.com.br\"],\"LogoutURLs\":[\"https://clube.vegekombucha.com.br\"]}"
       },
-      "lastPushDirHash": "YspZd2yA86AgXC0xqh2Nlo0ks10="
+      "lastPushTimeStamp": "2022-11-28T22:42:19.199Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplify6fe91e4916ed4-staging-193647-deployment/amplify-cfn-templates/auth/vegesubscriptionfaa1027e-cloudformation-template.json",
+        "logicalId": "authvegesubscriptionfaa1027e"
+      },
+      "lastPushDirHash": "2NZWQgEFH7GrSqYQhvv1DE2BCY0="
     }
   }
 }
